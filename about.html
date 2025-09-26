@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/popper.js"></script>
+  <style>
+   /* Make the image fully responsive */
+
+  .carousel-inner img {
+      width: 100%;
+      height: 30%;
+  }
+  </style>
+
+
+	<title>Home Page</title>
+</head>
+<body>
+  
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <img class="justify-content-center" src="car.jpg" alt="Logo" style="width:50px">
+
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse navbar justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Gallary
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cars.html">cars</a>
+        <a class="dropdown-item" href="buses.html">Buses</a>
+        <a class="dropdown-item" href="truck.html">Trucks</a>
+      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">our Services</a>
+      </li>
+ 
+   	</ul>
+   </div> 
+   </nav>
+  <section style="margin-top: 70px">
+    <div class="container mt-3">
+      <h2>About our cars</h2>
+      <p>Some of our best cars lunched recently are desplayed on the screen.</p><br>
+  <!-- Media top -->
+    <div class="media" data-toggle="tooltip" title="about cars">
+      <img src="car.jpg" class="align-self-center mr-3" style="width:100px">
+      <div class="media-body">
+        <h4>jaguar car</h4>
+        <p>this was designed several year before. this car has dufferent amaging features which attracks the people towards it</p>
+        <p>this was designed several year before. this car has dufferent amaging features which attracks the people towards it</p>
+        <p>this was designed several year before. this car has dufferent amaging features which attracks the people towards it</p>
+      
+    
+      </div>
+
+      
+    </div>
+  
+
+  <!-- Media middle -->
+  <div class="media" data-toggle="tooltip" title="about cars">
+    <img src="1.jpg" class="align-self-center mr-3" style="width:100px">
+    <div class="Aston car">
+      <h4>Media Middle</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+   </div>
+
+  <!-- Media bottom -->
+  <div class="media mt-3" data-toggle="tooltip" title="about cars">
+    <img src="3.jpg" class="align-self-center mr-3" style="width:100px">
+    <div class="media-body">
+      <h4>Mercedes cars</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+
+  </section>
+  
+  <!-- this is section part -->
+  
+  	
+    <footer class="bg-dark" >
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="about.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="cars.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="buses.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="services.html">Next</a></li>
+  </ul>
+    
+  </footer>
+
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+
+</body>
+</html>
